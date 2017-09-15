@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3FA5D7A1F6B761700E18D4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA5D791F6B761700E18D4D /* main.m */; };
+		D3FA5D7D1F6B761700E18D4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA5D7C1F6B761700E18D4D /* AppDelegate.m */; };
+		D3FA5D831F6B761700E18D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FA5D811F6B761700E18D4D /* Main.storyboard */; };
+		D3FA5D851F6B761700E18D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA5D841F6B761700E18D4D /* Assets.xcassets */; };
+		D3FA5D881F6B761700E18D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FA5D861F6B761700E18D4D /* LaunchScreen.storyboard */; };
+		D3FA5D931F6B761700E18D4D /* WKWebviewDynamicHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA5D921F6B761700E18D4D /* WKWebviewDynamicHeightTests.m */; };
+		D3FA5D9E1F6B761700E18D4D /* WKWebviewDynamicHeightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA5D9D1F6B761700E18D4D /* WKWebviewDynamicHeightUITests.m */; };
+		D3FA5DAD1F6B7CF900E18D4D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA5DAC1F6B7CF900E18D4D /* WebKit.framework */; };
+		D3FA5DB31F6B821100E18D4D /* WKWebTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA5DB21F6B821100E18D4D /* WKWebTableViewController.m */; };
+		D3FA5DB71F6B83CE00E18D4D /* WKWebTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA5DB51F6B83CE00E18D4D /* WKWebTableViewCell.m */; };
+		D3FA5DBB1F6BBC5F00E18D4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA5DBA1F6BBC5F00E18D4D /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3FA5D8F1F6B761700E18D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FA5D6D1F6B761700E18D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FA5D741F6B761700E18D4D;
+			remoteInfo = WKWebviewDynamicHeight;
+		};
+		D3FA5D9A1F6B761700E18D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FA5D6D1F6B761700E18D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FA5D741F6B761700E18D4D;
+			remoteInfo = WKWebviewDynamicHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3FA5D751F6B761700E18D4D /* WKWebviewDynamicHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebviewDynamicHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA5D791F6B761700E18D4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3FA5D7B1F6B761700E18D4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3FA5D7C1F6B761700E18D4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3FA5D821F6B761700E18D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3FA5D841F6B761700E18D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FA5D871F6B761700E18D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3FA5D891F6B761700E18D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FA5D8E1F6B761700E18D4D /* WKWebviewDynamicHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebviewDynamicHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA5D921F6B761700E18D4D /* WKWebviewDynamicHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebviewDynamicHeightTests.m; sourceTree = "<group>"; };
+		D3FA5D941F6B761700E18D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FA5D991F6B761700E18D4D /* WKWebviewDynamicHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebviewDynamicHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA5D9D1F6B761700E18D4D /* WKWebviewDynamicHeightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebviewDynamicHeightUITests.m; sourceTree = "<group>"; };
+		D3FA5D9F1F6B761700E18D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FA5DAC1F6B7CF900E18D4D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D3FA5DB11F6B821100E18D4D /* WKWebTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebTableViewController.h; sourceTree = "<group>"; };
+		D3FA5DB21F6B821100E18D4D /* WKWebTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebTableViewController.m; sourceTree = "<group>"; };
+		D3FA5DB41F6B83CE00E18D4D /* WKWebTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebTableViewCell.h; sourceTree = "<group>"; };
+		D3FA5DB51F6B83CE00E18D4D /* WKWebTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebTableViewCell.m; sourceTree = "<group>"; };
+		D3FA5DB91F6BBC5F00E18D4D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3FA5DBA1F6BBC5F00E18D4D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FA5D721F6B761700E18D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA5DAD1F6B7CF900E18D4D /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA5D8B1F6B761700E18D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA5D961F6B761700E18D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3FA5D6C1F6B761600E18D4D = {
+			isa = PBXGroup;
+			children = (
+				D3FA5D771F6B761700E18D4D /* WKWebviewDynamicHeight */,
+				D3FA5D911F6B761700E18D4D /* WKWebviewDynamicHeightTests */,
+				D3FA5D9C1F6B761700E18D4D /* WKWebviewDynamicHeightUITests */,
+				D3FA5D761F6B761700E18D4D /* Products */,
+				D3FA5DAB1F6B7CF900E18D4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FA5D761F6B761700E18D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA5D751F6B761700E18D4D /* WKWebviewDynamicHeight.app */,
+				D3FA5D8E1F6B761700E18D4D /* WKWebviewDynamicHeightTests.xctest */,
+				D3FA5D991F6B761700E18D4D /* WKWebviewDynamicHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FA5D771F6B761700E18D4D /* WKWebviewDynamicHeight */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA5DAE1F6B81DE00E18D4D /* WKWebTableview */,
+				D3FA5D7B1F6B761700E18D4D /* AppDelegate.h */,
+				D3FA5D7C1F6B761700E18D4D /* AppDelegate.m */,
+				D3FA5DB91F6BBC5F00E18D4D /* ViewController.h */,
+				D3FA5DBA1F6BBC5F00E18D4D /* ViewController.m */,
+				D3FA5D811F6B761700E18D4D /* Main.storyboard */,
+				D3FA5D841F6B761700E18D4D /* Assets.xcassets */,
+				D3FA5D861F6B761700E18D4D /* LaunchScreen.storyboard */,
+				D3FA5D891F6B761700E18D4D /* Info.plist */,
+				D3FA5D781F6B761700E18D4D /* Supporting Files */,
+			);
+			path = WKWebviewDynamicHeight;
+			sourceTree = "<group>";
+		};
+		D3FA5D781F6B761700E18D4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA5D791F6B761700E18D4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3FA5D911F6B761700E18D4D /* WKWebviewDynamicHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA5D921F6B761700E18D4D /* WKWebviewDynamicHeightTests.m */,
+				D3FA5D941F6B761700E18D4D /* Info.plist */,
+			);
+			path = WKWebviewDynamicHeightTests;
+			sourceTree = "<group>";
+		};
+		D3FA5D9C1F6B761700E18D4D /* WKWebviewDynamicHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA5D9D1F6B761700E18D4D /* WKWebviewDynamicHeightUITests.m */,
+				D3FA5D9F1F6B761700E18D4D /* Info.plist */,
+			);
+			path = WKWebviewDynamicHeightUITests;
+			sourceTree = "<group>";
+		};
+		D3FA5DAB1F6B7CF900E18D4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA5DAC1F6B7CF900E18D4D /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3FA5DAE1F6B81DE00E18D4D /* WKWebTableview */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA5DAF1F6B81DE00E18D4D /* Controller */,
+				D3FA5DB01F6B81DE00E18D4D /* View */,
+			);
+			path = WKWebTableview;
+			sourceTree = "<group>";
+		};
+		D3FA5DAF1F6B81DE00E18D4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA5DB11F6B821100E18D4D /* WKWebTableViewController.h */,
+				D3FA5DB21F6B821100E18D4D /* WKWebTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3FA5DB01F6B81DE00E18D4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA5DB41F6B83CE00E18D4D /* WKWebTableViewCell.h */,
+				D3FA5DB51F6B83CE00E18D4D /* WKWebTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FA5D741F6B761700E18D4D /* WKWebviewDynamicHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA5DA21F6B761700E18D4D /* Build configuration list for PBXNativeTarget "WKWebviewDynamicHeight" */;
+			buildPhases = (
+				D3FA5D711F6B761700E18D4D /* Sources */,
+				D3FA5D721F6B761700E18D4D /* Frameworks */,
+				D3FA5D731F6B761700E18D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKWebviewDynamicHeight;
+			productName = WKWebviewDynamicHeight;
+			productReference = D3FA5D751F6B761700E18D4D /* WKWebviewDynamicHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3FA5D8D1F6B761700E18D4D /* WKWebviewDynamicHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA5DA51F6B761700E18D4D /* Build configuration list for PBXNativeTarget "WKWebviewDynamicHeightTests" */;
+			buildPhases = (
+				D3FA5D8A1F6B761700E18D4D /* Sources */,
+				D3FA5D8B1F6B761700E18D4D /* Frameworks */,
+				D3FA5D8C1F6B761700E18D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FA5D901F6B761700E18D4D /* PBXTargetDependency */,
+			);
+			name = WKWebviewDynamicHeightTests;
+			productName = WKWebviewDynamicHeightTests;
+			productReference = D3FA5D8E1F6B761700E18D4D /* WKWebviewDynamicHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3FA5D981F6B761700E18D4D /* WKWebviewDynamicHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA5DA81F6B761700E18D4D /* Build configuration list for PBXNativeTarget "WKWebviewDynamicHeightUITests" */;
+			buildPhases = (
+				D3FA5D951F6B761700E18D4D /* Sources */,
+				D3FA5D961F6B761700E18D4D /* Frameworks */,
+				D3FA5D971F6B761700E18D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FA5D9B1F6B761700E18D4D /* PBXTargetDependency */,
+			);
+			name = WKWebviewDynamicHeightUITests;
+			productName = WKWebviewDynamicHeightUITests;
+			productReference = D3FA5D991F6B761700E18D4D /* WKWebviewDynamicHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FA5D6D1F6B761700E18D4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ttplus;
+				TargetAttributes = {
+					D3FA5D741F6B761700E18D4D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3HLB9VXZD6;
+						ProvisioningStyle = Automatic;
+					};
+					D3FA5D8D1F6B761700E18D4D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3HLB9VXZD6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3FA5D741F6B761700E18D4D;
+					};
+					D3FA5D981F6B761700E18D4D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3HLB9VXZD6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3FA5D741F6B761700E18D4D;
+					};
+				};
+			};
+			buildConfigurationList = D3FA5D701F6B761700E18D4D /* Build configuration list for PBXProject "WKWebviewDynamicHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FA5D6C1F6B761600E18D4D;
+			productRefGroup = D3FA5D761F6B761700E18D4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FA5D741F6B761700E18D4D /* WKWebviewDynamicHeight */,
+				D3FA5D8D1F6B761700E18D4D /* WKWebviewDynamicHeightTests */,
+				D3FA5D981F6B761700E18D4D /* WKWebviewDynamicHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FA5D731F6B761700E18D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA5D881F6B761700E18D4D /* LaunchScreen.storyboard in Resources */,
+				D3FA5D851F6B761700E18D4D /* Assets.xcassets in Resources */,
+				D3FA5D831F6B761700E18D4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA5D8C1F6B761700E18D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA5D971F6B761700E18D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FA5D711F6B761700E18D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA5DB31F6B821100E18D4D /* WKWebTableViewController.m in Sources */,
+				D3FA5DB71F6B83CE00E18D4D /* WKWebTableViewCell.m in Sources */,
+				D3FA5D7D1F6B761700E18D4D /* AppDelegate.m in Sources */,
+				D3FA5D7A1F6B761700E18D4D /* main.m in Sources */,
+				D3FA5DBB1F6BBC5F00E18D4D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA5D8A1F6B761700E18D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA5D931F6B761700E18D4D /* WKWebviewDynamicHeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA5D951F6B761700E18D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA5D9E1F6B761700E18D4D /* WKWebviewDynamicHeightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3FA5D901F6B761700E18D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FA5D741F6B761700E18D4D /* WKWebviewDynamicHeight */;
+			targetProxy = D3FA5D8F1F6B761700E18D4D /* PBXContainerItemProxy */;
+		};
+		D3FA5D9B1F6B761700E18D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FA5D741F6B761700E18D4D /* WKWebviewDynamicHeight */;
+			targetProxy = D3FA5D9A1F6B761700E18D4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3FA5D811F6B761700E18D4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FA5D821F6B761700E18D4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3FA5D861F6B761700E18D4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FA5D871F6B761700E18D4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3FA5DA01F6B761700E18D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3FA5DA11F6B761700E18D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FA5DA31F6B761700E18D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3HLB9VXZD6;
+				INFOPLIST_FILE = WKWebviewDynamicHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttplus.WKWebviewDynamicHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3FA5DA41F6B761700E18D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3HLB9VXZD6;
+				INFOPLIST_FILE = WKWebviewDynamicHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttplus.WKWebviewDynamicHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3FA5DA61F6B761700E18D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3HLB9VXZD6;
+				INFOPLIST_FILE = WKWebviewDynamicHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttplus.WKWebviewDynamicHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebviewDynamicHeight.app/WKWebviewDynamicHeight";
+			};
+			name = Debug;
+		};
+		D3FA5DA71F6B761700E18D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3HLB9VXZD6;
+				INFOPLIST_FILE = WKWebviewDynamicHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttplus.WKWebviewDynamicHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebviewDynamicHeight.app/WKWebviewDynamicHeight";
+			};
+			name = Release;
+		};
+		D3FA5DA91F6B761700E18D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3HLB9VXZD6;
+				INFOPLIST_FILE = WKWebviewDynamicHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttplus.WKWebviewDynamicHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKWebviewDynamicHeight;
+			};
+			name = Debug;
+		};
+		D3FA5DAA1F6B761700E18D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3HLB9VXZD6;
+				INFOPLIST_FILE = WKWebviewDynamicHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttplus.WKWebviewDynamicHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKWebviewDynamicHeight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FA5D701F6B761700E18D4D /* Build configuration list for PBXProject "WKWebviewDynamicHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA5DA01F6B761700E18D4D /* Debug */,
+				D3FA5DA11F6B761700E18D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FA5DA21F6B761700E18D4D /* Build configuration list for PBXNativeTarget "WKWebviewDynamicHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA5DA31F6B761700E18D4D /* Debug */,
+				D3FA5DA41F6B761700E18D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3FA5DA51F6B761700E18D4D /* Build configuration list for PBXNativeTarget "WKWebviewDynamicHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA5DA61F6B761700E18D4D /* Debug */,
+				D3FA5DA71F6B761700E18D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3FA5DA81F6B761700E18D4D /* Build configuration list for PBXNativeTarget "WKWebviewDynamicHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA5DA91F6B761700E18D4D /* Debug */,
+				D3FA5DAA1F6B761700E18D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FA5D6D1F6B761700E18D4D /* Project object */;
+}
